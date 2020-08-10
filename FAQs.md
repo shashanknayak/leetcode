@@ -1,4 +1,6 @@
-# Is it a good practice to place C++ definitions in header files?
+# Frequently asked questions (by me)
+
+## Is it a good practice to place C++ definitions in header files?
 
 If you want to use a function in multiple source files (or rather, translation units), then you place a function declaration (i.e. a function prototype) in the header file, and the definition in one source file.
 
